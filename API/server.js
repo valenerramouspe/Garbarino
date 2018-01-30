@@ -5,8 +5,10 @@ var express = require('express'),
 mongoose = require('mongoose'),
   Products = require('./src/models/productmodel'), //created model loading here
   bodyParser = require('body-parser');
-  
-// mongoose instance connection url connection
+  const productData = require('./data.json');
+  const crossOrigin = require('./src/config/crossorigin')
+  app.use(crossOrigin)
+
 
 mongoose.connect('mongodb://localhost/Products'); 
 
@@ -16,7 +18,10 @@ app.use(bodyParser.json());
 
 
 var routes = require('./src/routes/routes'); //importing route
-routes(app); //register the route
+routes(app);
 
+for( var i = 0; i < productData.length; i++ ) {
+		new Products( productData[ i ] ).save();
+}
 
 app.listen(port);

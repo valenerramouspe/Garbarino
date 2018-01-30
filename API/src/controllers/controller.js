@@ -3,8 +3,7 @@ var mongoose = require('mongoose'),
 
 exports.get_products = function(req, res) {
   Products.find({}, function(err, products) {
-    if (err)
-      res.send(err);
+    if (err) res.send(err);
     res.json(products);
   });
 };

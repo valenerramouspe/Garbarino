@@ -1,0 +1,68 @@
+{
+  "products": [
+    {
+      "id": 1, 
+      "title": "Sandalia Pale Gold YSL", 
+      "type":"Indumentaria",
+      "mask":"../assets/fotitos/maskshoe.png",
+      "image":"../assets/fotitos/zapatogold.png",
+      "price":"800"
+    },
+    {
+      "id": 2, 
+      "title": "25% OFF en Gafas Guess", 
+      "type": "Accesorios",
+      "mask":"../assets/fotitos/maskGuess.png",
+      "image": "../assets/fotitos/guess.png",
+      "price":"1.200"
+    },
+    {
+      "id": 3, 
+      "title": "Iphone Blue Case", 
+      "type": "Accesorios",
+      "mask":"../assets/fotitos/maskCase.png",
+      "image": "../assets/fotitos/case.png",
+      "price":"30"
+    },
+    {
+      "id": 4, 
+      "title": "Zapatillas Dolce&Gabanna", 
+      "type": "Indumentaria", 
+      "mask":"../assets/fotitos/maskZapatilla.png",
+      "image": "../assets/fotitos/zapatilla.png",
+      "price":"640"
+    },
+    {
+      "id": 5, 
+      "title": "Kylie Cosmetics KOKO Collection", 
+      "type": "Belleza", 
+      "mask":"../assets/fotitos/maskGuess.png",
+      "image": "../assets/fotitos/lipstick.png",
+      "price":"1.800"
+    },
+    {
+      "id": 6, 
+      "title": "Campera Teddy Rosa YSL", 
+      "type": "Indumentaria", 
+      "mask":"../assets/fotitos/maskTeddy.png",
+      "image": "../assets/fotitos/teddy.png",
+      "price":"170"
+    },
+    {
+      "id": 7, 
+      "title": "10% OFF en Chanel", 
+      "type": "Accesorios", 
+      "mask":"../assets/fotitos/maskGuess.png",
+      "image": "../assets/fotitos/chanel.png",
+      "price":"8.300"
+    },
+        {
+      "id": 8, 
+      "title": "Campera de cuero Blood Luster YSL", 
+      "type": "Indumentaria", 
+      "mask":"../assets/fotitos/maskCuero.png",
+      "image": "../assets/fotitos/cuero.png",
+      "price":"40.000"
+    }
+  ]
+}

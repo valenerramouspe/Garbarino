@@ -1,0 +1,136 @@
+body{
+	background-color: #eceef3
+}
+#pagina{
+	width: 84%;
+	top:10%;
+	left: 16%;
+    height: auto;
+    position: absolute;
+    right: 0;
+    overflow-x: hidden;
+}
+/*barra lateral*/
+
+#sidebar{
+	width: 17vw;
+    top: 10%;
+    bottom: 0;
+    left:0;
+    position: fixed;
+    outline: 1px solid;
+    background: #d1030f;
+    z-index: 2
+}
+.navigation{
+	color: white;
+	font-weight: bold;
+	padding: 10%;
+	font-size: 2vw
+}
+.navigation:hover{
+	background-color: #d83838;
+}
+.navigation:active{
+	background-color: #ad0000
+}
+
+/*rectángulo superior y link a home*/
+
+#nav{
+	position: fixed;
+	display: block;
+	left:0;
+	right: 0;
+	background-color: #d1030f;
+	top:0;
+	bottom: 90%;
+	z-index: 5;
+}
+#home{
+	display: table;
+	height: 100%;
+	width: 16.2vw; 
+	padding-left: 1%;
+	background-color: black
+}
+#catalogo{
+	display: table-cell; 
+    vertical-align: middle;
+    font-size: 2.5vw;
+    color: white;
+	margin: auto;
+}
+
+/*página con los contenidos*/
+
+#content{
+	display: table;
+	background-color: white;
+	height: 80%;
+	width: 97%;
+	margin-left:3%;
+	margin-bottom: 3%;
+	padding-top: 2%;
+	right:0;
+}
+
+/*página principal con todos los productos*/
+
+.captions{
+	padding-left: 8%;
+}
+.titulo{
+	font-size: 4vw;
+	font-family: 'Patua One';
+	font-style: cursive;	
+}
+.producto{
+	display: table-cell;
+	margin: 1.3%;
+	width:30%;
+	position: relative;
+	float: left;
+	padding-left: 7%
+}
+.producto:hover{
+	background-color: #a0dfe8;
+}
+.producto:active{
+	background-color: #036969;
+}
+
+.bottomProducto{
+	padding-left: 1%
+}
+.title{
+	font-family: 'Patua One';
+	font-style: cursive;
+	color: black
+}
+.clase{
+	font-family: 'Patua One';
+	font-size: 1vw;
+	font-style: cursive;
+	color: grey
+}
+
+/*página de marca de producto*/
+
+.quantity{
+	font-size: 3vw;
+}
+
+/*página de single*/
+
+.single{
+	width: 50%;
+	margin: auto
+}
+.singleTitle{
+	font-size: 3vw;
+	font-family: :'Patua One';
+	font-style: cursive;
+	font-weight: bold;
+	color:#3d3b38;
+}
